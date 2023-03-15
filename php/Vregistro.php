@@ -28,7 +28,7 @@ $res=insertarUsuario($conn, $Nombre, $Correo, $Password);
 /*esta el archivo en xamp
 
 */
-if (insertarUsuario($conn, $Nombre, $Correo, $Password)) {
+if ($res) {// al cambiar insertarUsuario($conn, $Nombre, $Correo, $Password); por $res no de duplica 
     header('Location:home.php');
 } else {
     echo 'error al cerear usuario'.$res;

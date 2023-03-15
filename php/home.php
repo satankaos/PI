@@ -10,6 +10,7 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link  rel="stylesheet"href="../source/css/homead.css">
 
 </head>
 
@@ -18,9 +19,16 @@
     <!-- place navbar here -->
   </header>
   <main>
-  <a class="btn btn-primary " href="../source/productos.php" aria-current="page">Libros</a>
-  <a class="btn btn-primary " href="buscarLibros.php" aria-current="page">buscar Libros</a>
+    <h1> BIEN BENIDO</h1>
+    
   </main>
+  <table class= "table table-dark table-striped">
+ 
+    <th><a class="btn btn-primary " href="../php/loging.php" aria-current="page">loging</a></th>
+    <th><a class="btn btn-primary " href="../php/formularioRegistro.php" aria-current="page">registro</a></th>
+    <th><a class="btn btn-primary " href="../source/productos.php" aria-current="page">Libros</a></th>
+    <th>  <a class="btn btn-primary " href="buscarLibros.php" aria-current="page">buscar Libros</a></th>
+    </table>
   <footer>
     <!-- place footer here -->
   </footer>

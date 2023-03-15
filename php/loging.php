@@ -37,6 +37,11 @@ session_destroy()
               <div class="form-group mb-3">
                   <input type="submit" name="login_button" class="form-control btn btn-primary" value="Acceder">
               </div>
+              <table class= "table table-dark table-striped">";
+ 
+ 
+    
+    </table>
           </form>
         </div>
       </div>
