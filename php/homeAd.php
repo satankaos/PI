@@ -6,9 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link  rel="stylesheet"href="../source/css/homead.css">
+  <link rel="stylesheet" type="text/css" href="../source/css/bootstrap.min.css">
 
 
 
@@ -23,7 +21,7 @@
     <!-- place navbar here -->
   </header>
   <main>
-<h1 >Panel de control usuarios</h1>
+<h1 > Eres admin</h1>
   </main>
   <form action="eliminarUsuario.php" method="POST" autocomplete="off">
             <h2 class="text-center">eliminar usuario</h2>
