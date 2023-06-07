@@ -29,12 +29,12 @@ session_destroy()
   
 
   <div class="container-fluid " style="background-image: url('/php/img/487483.jpg');
-            height: 100vh">
-    <div class="d-flex min-vh-75">
+            height: 100vh ">
+    <div class="d-flex min-vh-75" style=";position: relative;top:20%">
       <div class="row d-flex flex-grow-1 justify-content-center align-items-center">
         <div class=" container col-md-4 form login-form">
           <!-- <form action="ProcesoInicio.php" method="POST" autocomplete="off"> -->
-          <form class='border border-primary rounded' action="ProcesoInicio.php" method="POST" autocomplete="off">
+          <form class='' action="ProcesoInicio.php" method="POST" autocomplete="off">
           <div class="justify-content-center align-items-center move">
             <img class="mx-auto d-block" src="../php/img/logo.png" alt="" width="200px" height="200px">
           </div>

@@ -25,7 +25,7 @@ $conn = $db = conect();
 $i=$_POST['select'];
 $titulo=$_POST['Titulo'];
 $Autor=$_POST['Autor'];
-$Genero=$_POST['Autor'];
+$Genero=$_POST['Genero'];
 $Editorial=$_POST['Editorial'];
 
      if ($i==0) {
@@ -38,9 +38,9 @@ $Editorial=$_POST['Editorial'];
         $sql='SELECT * FROM libros where autor like"'.$Autor.'" ';
 
      }elseif ($i==3) {
-        $sql='SELECT * FROM libros where genero like "'.$Genero.'" ';
+        $sql='SELECT * FROM libros where editorial  like "'.$Editorial.'" ';
      }elseif ($i==4) {
-        $sql='SELECT * FROM libros where editorial like "'.$Editorial.'" ';
+        $sql='SELECT * FROM libros where genero like "'.$Genero.'" ';
      }
 
      
@@ -56,7 +56,7 @@ if (mysqli_num_rows($result) > 0) {
     // Mostrar los resultados en una tabla HTML
     echo "<table class= \"table table-dark table-striped\">";
     echo "<tr>";
-    echo "<th>Id</th>";
+   
     echo "<th>Titulo</th>";
     echo "<th>Autor</th>";
     echo "<th>Editorial</th>";
@@ -69,7 +69,7 @@ if (mysqli_num_rows($result) > 0) {
  
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>";
-        echo "<td>" . $row["id"] . "</td>";
+       
         echo "<td>" . $row["Titulo"] . "</td>";
         echo "<td>" . $row["Autor"] . "</td>";
         echo "<td>" . $row["Editorial"] . "</td>";

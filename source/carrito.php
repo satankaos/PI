@@ -16,6 +16,7 @@ include "../php/conexion.php";
 </head>
 <body>
 <div class="container">
+
 	<div class="row">
 		<div class="col-md-12">
 			<h1>Carrito</h1>
@@ -59,7 +60,7 @@ $r = $products->fetch_object();
 </tr>
 <?php endforeach; ?>
 </table>
-
+<div style="position:arealtive;top:50% ;left:50%;width:100%">
 <form class="form-horizontal" method="post" action="./phpc/procesarCarrito.php">
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Email del cliente</label>
@@ -68,12 +69,13 @@ $r = $products->fetch_object();
     </div>
   </div>
   <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
+    
       <button type="submit" class="btn btn-primary">Procesar Venta</button>
-    </div>
+	  <a href="./../php/home.php" class="btn  btn-primary">Atras</a>
+    
   </div>
 </form>
-
+</div>
 
 <?php else:?>
 	<p class="alert alert-warning">El carrito esta vacio.</p>

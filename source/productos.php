@@ -13,14 +13,20 @@ include "../php/conexion.php";
 	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 </head>
-<body>
+<body class="overflow-visible">
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Libros</h1>
-			<a href="./carrito.php" class="btn btn-warning">Ver Carrito</a>
-			<a href="./../php/home.php" class="btn btn-warning">Atras</a>
-			<br><br>
+			<div style="position:relative; left:25%">
+				<h1>Libros Disponibles</h1>
+				<div style="position:absolute;top:45%;left:0%;"><a href="./carrito.php" class="btn btn-warning">Ver Carrito</a></div>
+    			<div style="position:absolute;top:45%;left:20%;"><a href="./../php/home.php" class="btn btn-warning">Atras</a></div>
+				
+				
+				<br><br>
+			</div>
+			
+
 <?php
 /*
 * Esta es la consula para obtener todos los productos de la base de datos.
@@ -39,7 +45,7 @@ $products = $conn->query("SELECT * FROM libros");
 */
 while($r=$products->fetch_object()):?>
 <tr>
-	<td><?php echo $r->Titulo;?></td>
+	<td><b><?php echo $r->Titulo;?></b></td>
 	<td>$ <?php echo $r->Precio; ?></td>
 	<td style="width:260px;">
 	<?php

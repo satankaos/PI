@@ -8,7 +8,7 @@ if($q1){
 $cart_id = $conn->insert_id;
 foreach($_SESSION["cart"] as $c){
 //$q1 = $conn->query("insert into carrito_libros(product_id,q,cart_id) value($c[product_id],$c[q],$cart_id)");
-$q1 = $conn->query("INSERT INTO carrito_libros (product_id,q,cart_id) VALUES ($c[product_id],$c[q],$cart_id)");
+$q1 = $conn->query("INSERT INTO carrito_libros (product_id,q,cart_id) VALUES ($c[product_id],$c[q],$cart_id)");//ES VENTAS 
 }
 unset($_SESSION["cart"]);
 }

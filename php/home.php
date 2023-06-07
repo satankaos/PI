@@ -14,36 +14,45 @@
 
 </head>
 
-<body>
+<body >
+<div class="container">
+  <div style="position:absolute;top:15%;left:42%;  " >
+  <table>
+    <tr>
+      <td><a class="btn btn-primary btn-lg " href="../source/productos.php" aria-current="page">Libros</a></td>
+      <td><a class="btn btn-primary btn-lg" href="buscarLibros.php" aria-current="page">buscar Libros</a></td>
+      <td><a class="btn btn-primary btn-lg" href="../source/carrito.php" aria-current="page">Carrito</a></td>
+
+
+   </tr>
+</table>
+
+<p>sdfsdfsdfsdf</p>
+  </div>  
   <header>
     <!-- place navbar here -->
   </header>
   <img class="image" src="../php/img/logo.png" alt="" width="200px" height="200px">
-  <div>
-  <div class="d-flex justify-content-center align-items-center vh-100">
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/1.jpg" class="d-block w-20 h-20" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/3.jpg" class="d-block w-20 h-20" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/4.jpg" class="d-block w-20 h-20" alt="...">
+  <div style="position:absolute; top:25% ;left:40%">
+    <div class="d-flex justify-content-center align-items-center vh-50" >
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/1.jpg" class="d-block w-20 h-20" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/3.jpg" class="d-block w-20 h-20" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/4.jpg" class="d-block w-20 h-20" alt="...">
+      </div>
     </div>
   </div>
-</div>
+  
 
-</div>
+  
 
-  <main>
-  <a class="btn btn-primary " href="../source/productos.php" aria-current="page">Libros</a>
-  <a class="btn btn-primary " href="buscarLibros.php" aria-current="page">buscar Libros</a>
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
