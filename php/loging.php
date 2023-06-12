@@ -25,6 +25,13 @@ session_destroy()
 </head>
 <body>
 
+<style type="text/css">
+  body{
+    background-image: url(../php/img/fondo.jpg);
+    background-repeat:no-repeat;
+    color:white;
+  background-size: 100%;}
+  </style>
 
   
 

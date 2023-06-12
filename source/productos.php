@@ -14,6 +14,9 @@ include "../php/conexion.php";
 
 </head>
 <body class="overflow-visible">
+<style type="text/css">
+  
+  </style>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">

@@ -27,7 +27,13 @@
    </tr>
 </table>
 
-<p>sdfsdfsdfsdf</p>
+<style type="text/css">
+  body{
+    background-image: url(../php/img/fondo.jpg);
+    background-repeat:no-repeat;
+  background-size: 100%;}
+  </style>
+
   </div>  
   <header>
     <!-- place navbar here -->

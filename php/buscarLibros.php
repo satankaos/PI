@@ -15,6 +15,15 @@
 </head>
 
 <body>
+<style type="text/css">
+  body{
+    background-image: url(../php/img/fondo.jpg);
+    background-repeat:no-repeat;
+  background-size: 100%;
+color:white;
+}
+  </style>
+
   <header>
     <!-- place navbar here -->
   </header>
